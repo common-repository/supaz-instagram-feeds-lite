@@ -1,0 +1,1 @@
+<div class="sifs-username"><a href="https://instagram.com/<?php echo esc_attr($username); ?>" target="_blank" title="<?php _e('Follow on Instagram', 'supaz-instagram-feeds-lite'); ?>">@<?php echo esc_html($username); ?></a></div>

@@ -1,0 +1,1 @@
+<?php if( $image_type =='video' ){ ?><i class="fas fa-video"></i> <?php }else if( $image_type=='carousel' ){ ?> <i class="fas fa-clone"></i> <?php }else{ ?><i class="fas fa-image"></i> <?php } ?>

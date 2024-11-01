@@ -1,0 +1,1 @@
+<div class="sifs-user-name"><?php echo esc_html($full_name); ?></div>

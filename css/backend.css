@@ -1,0 +1,384 @@
+/**
+ * Supaz Instagram Feeds
+ * Plugins Backend CSS by Supazthemes(Developer: Jayaram Maharjan)
+ */
+#supaz_instagram_feeds .handlediv,
+#supaz_instagram_feeds .ui-sortable-handle
+{
+	display: none;
+}
+/***/
+.sifs-metaboxes-wrapper-inner{
+	width:100%;
+	display: table;
+}
+.sifs-tabs-header-wrap{
+	width:25%;
+}
+.sifs-tabs-content-wrap{
+	width:75%;
+	padding: 20px;
+}
+.sifs-tabs-header-wrap,
+.sifs-tabs-content-wrap{
+	display: table-cell;
+	vertical-align: top;
+}
+.sifs-tabs-header-wrap{
+	background:#008ec2;
+}
+.sifs-tabs-wrap{
+	padding: 0;
+	margin:0;
+}
+.sifs-tabs-wrap li{
+	font-size:16px;
+	margin: 0;
+	cursor: pointer;
+	padding:10px 10px 10px 40px;
+	background:rgba(255,255,255,0.5);
+	color:#fff;
+	border-bottom:1px solid rgba(255,255,255,0.3);
+}
+.sifs-tabs-wrap li.sifs-active{
+	background: rgba(255,255,255,1);
+	color:#222;
+}
+.sifs-input-field-wrap{
+	position: relative;
+	padding-left:150px;
+	margin-bottom:20px;
+}
+.sifs-image-placeholder{
+	margin-top:15px;
+}
+.sifs-input-field-wrap label{
+	position: absolute;
+    left: 0;
+    max-width:145px;
+    display: block;
+}
+#sifs-feed-settings-access-token{
+	width:100%;
+}
+img{
+	max-width: 100%;
+}
+.sifs-tabs-content-wrap .header-text{
+	font-size:24px; 
+	padding-bottom:15px;
+	margin-bottom:30px;
+	position: relative;
+}
+.sifs-tabs-content-wrap .header-text:before{
+	content:'';
+	bottom: 0;
+	left:0;
+	width:20px;
+	height: 2px;
+	background: #008ec2;
+	position:absolute;
+}
+.sifs-note-wrap{
+	font-style: italic;
+    font-size: 14px;
+    color: #a2a1a1;
+    margin-top: 10px;
+}
+.sifs_posts_page_supaz-instagram-settings .sifs-note-wrap a,
+#sifs-get-locations-dropdown,
+input.sifs-image-upload-button{
+	margin-top: 20px;
+	padding:6px 10px;
+	border-radius:4px;
+	display:inline-block;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    font-style:normal;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+input.sifs-image-upload-button{
+	border:0;
+	margin-top: 0;
+}
+.sifs-column-selection-options-wrap{
+	position: relative;
+	padding-left: 100px;
+	margin-bottom:10px;
+}
+.sifs-column-selection-options-wrap:last-child{
+	margin-bottom:0;
+}
+.sifs-column-selection-options-wrap input{
+    box-shadow: none;
+    border: 1px solid #ddd;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sifs-lat-long-input-fields input{
+	display:block;
+	margin-top: 10px;
+}
+.sifs-load-more-button-selection{
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-right: -4px;
+    margin-left: 4px;
+}
+#sifs-grid-load-more-button-custom-selection{
+    display: inline-block;
+    margin-left: 4px;
+}
+.sifs-load-more-button-selection label,
+label[for="sifs-grid-load-more-button-custom-selection"]{
+	display: inline-block;
+	position: static;
+}
+.sifs-load-more-button-selection label img{
+	width:20px;
+}
+.sifs-input-field-wrap .wp-picker-input-wrap label{
+	position: static;
+	display: inline-block;
+}
+.sifs-column-input-wrap{
+	position: relative;
+    padding: 11px 0 4px 50px;
+}
+.sifs-input-field-wrap .slider-range-max{
+	max-width:170px;
+}
+
+.sifs-input-field-wrap input[type=int]{
+	left:0;
+	top:0;
+	position: absolute;
+}
+.sifs-subhead-title,
+.apif-title{
+	font-size:18px;
+	margin-bottom:25px;
+	font-weight:600;
+}
+.sifs-header-wrap{
+	background:#008ec2;
+	overflow: hidden;
+	padding:20px;
+}
+.supaz-social-profiles{
+	float: right;
+}
+.supaz-social-profiles p{
+	margin:0;
+}
+.sifs-header-logo{
+	float: left;
+}
+.sifs-instagram-settings-inner-wrap{
+	padding:50px 20px;
+	
+}
+#login_with_instagram{
+	padding-bottom:20px;
+}
+.sifs-header-logo,
+.supaz-social-profiles{
+	color:#fff;
+}
+
+.sifs-header-logo, .supaz-social-profiles a{
+    color: #fff;
+
+}
+
+.sifs-header-logo h2{
+	color:#fff;
+}
+.supaz-social-profiles > p{
+	margin-bottom:7px;
+}
+.sifs_posts_page_supaz-instagram-settings #wpbody, 
+.sifs_posts_page_about-us #wpbody{
+    margin-right: 15px;
+    box-sizing: border-box;
+    /*border: 1px solid #f28c35;*/
+    margin-top: 20px;
+}
+.sifs-instagram-settings-inner-wrap{
+	border: 1px solid #008ec2;
+}
+.sifs-instagram-settings-inner-wrap .sifs-input-field-wrap input[type=text]{
+	max-width: 480px;
+	width:100%;
+}
+.sifs_posts_page_supaz-instagram-settings #wpbody:after{
+	content:'';
+	display: block;
+	clear:both;
+}
+.sifs_posts_page_supaz-instagram-settings #wpbody-content{
+	padding-bottom:0;
+}
+.sifs-notation{
+	display: block;
+	font-size:16px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+.sifs-input-fields-section-wrap input[type=text]{
+	width:100%;
+}
+.sifs-ajax-loader{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-left:15px;
+}
+.sifs-ajax-response{
+	margin-top:20px;
+}
+.sifs-input-field-wrap input[type=checkbox]{
+	visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.sifs-input-field-wrap input[type=checkbox] + label{
+	position: static;
+    padding: 2px;
+    width: 48px;
+    height: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    float: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+.sifs-input-field-wrap input[type=checkbox] + label:before,
+.sifs-input-field-wrap input[type=checkbox] + label:after{
+    content: '';
+    position: absolute;
+    display: block;
+}
+.sifs-input-field-wrap input[type=checkbox] + label:before{
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+.sifs-input-field-wrap  input[type=checkbox] + label:after{
+    top:4px;
+    left: 3px;
+    bottom: 4px;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: margin 0.4s, background 0.4s;
+    -moz-transition: margin 0.4s, background 0.4s;
+    -o-transition: margin 0.4s, background 0.4s;
+    transition: margin 0.4s, background 0.4s;
+}
+.sifs-input-field-wrap  input[type=checkbox]:checked + label:before {
+    background-color: #008ec2;
+    margin: 0;
+}
+.sifs-input-field-wrap  input[type=checkbox]:checked + label:after {
+    margin-left: 28px;
+}
+.sifs-input-field-wrap .sifs-image-preview{
+	margin-top:10px;
+}
+.sifs-input-field-wrap .sifs-image-preview img{
+	width:50px;
+	height:50px;
+}
+
+@media only screen and (max-width:1300px) {
+	.sifs-tabs-header-wrap{
+		width:40%;
+	}
+	.sifs-tabs-content-wrap{
+		width:60%;
+	}
+}
+@media only screen and (max-width:1140px) {
+	.sifs-metaboxes-wrapper-inner{
+		display: block;
+		border-bottom:1px solid #ddd;
+	}
+	.sifs-metaboxes-wrapper-inner .sifs-tabs-wrap li{
+		display: inline-block;
+	    width: 50%;
+	    margin-right: -4px;
+	    box-sizing: border-box;
+	}
+	.sifs-tabs-header-wrap{
+		width: 100%;
+	    display: block;
+	    box-sizing: border-box;
+	}
+	.sifs-tabs-content-wrap{
+		width: 100%;
+	    display: block;
+	    box-sizing: border-box;
+	}
+}
+@media only screen and (max-width:640px) {
+	.sifs-metaboxes-wrapper-inner .sifs-tabs-wrap li {
+	    display:block;
+	    width:100%;
+	    margin-right:0;
+	}
+	.sifs-input-field-wrap {
+	    padding-left:0;
+	}
+	.sifs-input-field-wrap label{
+		position: static;
+		width: auto;
+		display: block;
+	}
+}
+
